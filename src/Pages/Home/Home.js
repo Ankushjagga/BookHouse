@@ -18,7 +18,7 @@ const Home = () => {
       <div className='banner2'></div>
       <div className='banner-head'>
       <h1 className='categories'><span> The Book<span className='rad'>House</span>  </span></h1>
-      <p>Stock up on a wide range of Stationary Items Here.<br/> Get a huge selection of Stationary including <span className='rad'> Notebooks , <br/>Pencils, Bags, Books ,Keychains ,Files </span>and son on .<br/> You are certain to <span className='rad'> find something that you need 😄</span></p>
+      <p>Stock up on a wide range of Stationary Items Here.<br/> Get a huge selection of Stationary including <span className='rad'> Notebooks , <br/>Pencils, Bags, Books ,Keychains ,Files </span>and so on .<br/> You are certain to <span className='rad'> find something that you need 😄</span></p>
 
       <NavLink to="/exploreLatest"> <button className='explore '>  Explore</button></NavLink> 
       </div>
