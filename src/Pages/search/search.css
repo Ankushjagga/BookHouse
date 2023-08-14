@@ -134,3 +134,11 @@ font-size: 1.2rem;
     font-size: 1rem;
 }
 }
+@media screen and (max-width:600px) {
+.card-prices{
+    display: block;
+}
+.card-prices>p{
+    margin: 1rem 6rem;
+}
+}

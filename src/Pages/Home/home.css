@@ -150,3 +150,8 @@ font-weight: 400;
     left: 44%;
 }
 }
+@media (max-width:600px){
+.subscribe>button{
+    top: 67%;
+}
+}
