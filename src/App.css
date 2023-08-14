@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans';
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-family: 'Ubuntu', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .3s ease-in-out;
+  letter-spacing: 2px;
+
+}
+*::selection{
+  background:#4267B2 ;
+  color:#333;
+}
+html{
+   
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html::-webkit-scrollbar{
+  width:1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html::-webkit-scrollbar-track{
+  background:rgb(61, 58, 58);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+html::-webkit-scrollbar-thumb{
+  background: #4267B2;
+
+  border-radius: 3rem;
+
+
+}
+.StripeCheckout{
+  background: #4267B2!important;
+  border: none!important;
+  padding: 0 1rem!important;
+}
+.StripeCheckout>span{
+  background: #4267B2!important;
+  box-shadow: none!important;
+  padding: 0!important;
+}
+/* a{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+a:hover{
+  color: #4267B2;
+} */
