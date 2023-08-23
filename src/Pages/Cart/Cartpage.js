@@ -40,7 +40,7 @@ const Cartpage = () => {
     if(window.confirm("do you rerally want to delete item 😟?")){
       dispatch(removeItem(id));
 
-      toast("Cart Clear Sucessfully 😄",{position: "top-right",
+      toast("Product deleted Sucessfully 😄",{position: "top-right",
       autoClose: 2000,
       closeOnClick: false,
       pauseOnHover: false,
