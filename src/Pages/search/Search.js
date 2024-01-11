@@ -24,7 +24,7 @@ const onTextChange=(event)=>{
  
         setSearchText(event.target.value)
         const data = filterData(searchText, item);
-        // update the state - restaurants
+     
         setfilteritem(data);
 
   
